@@ -105,6 +105,7 @@ dfb1=df.copy()
 dfb
 ```
 # Output
+![Screenshot 2025-04-23 095707](https://github.com/user-attachments/assets/da71aadb-513e-4a15-8ff3-578700687b52)
 
 ```
 from category_encoders import TargetEncoder
@@ -115,6 +116,7 @@ CC=pd.concat([CC,new],axis=1)
 CC
 ```
 # Output
+![Screenshot 2025-04-23 095732](https://github.com/user-attachments/assets/90cfb353-54b0-431f-bdb3-60e951cd1fee)
 
 ```
 import pandas as pd
@@ -130,16 +132,19 @@ df
 df.skew()
 ```
 # Output
+![Screenshot 2025-04-23 095920](https://github.com/user-attachments/assets/670f9e94-12de-4a1c-b8aa-f4e19d6ce142)
 
 ```
 np.log(df["Highly Positive Skew"])
 ```
 # Output
+![Screenshot 2025-04-23 095942](https://github.com/user-attachments/assets/798d4946-c47f-4be1-8cdd-56e2d7134bda)
 
 ```
 np.reciprocal(df["Moderate Positive Skew"])
 ```
 # Output
+![Screenshot 2025-04-23 100006](https://github.com/user-attachments/assets/9896a3d1-be02-4e3e-a9ec-75bc798f8f69)
 
 ```
 np.sqrt(df["Highly Positive Skew"])
@@ -195,12 +200,14 @@ sm.qqplot(df["Highly Negative Skew_1"],line='45')
 plt.show()
 ```
 # Output
+![Screenshot 2025-04-23 100430](https://github.com/user-attachments/assets/193230ff-a5cf-4236-9207-ffd1bd79ede2)
 
 ```
 sm.qqplot(np.reciprocal(df["Moderate Negative Skew"]),line='45')
 plt.show()
 ```
 # Output
+![Screenshot 2025-04-23 100452](https://github.com/user-attachments/assets/d0e86c11-e4d3-4d50-83f7-37704bc9fb30)
 
 
 # RESULT:
